@@ -1,10 +1,56 @@
 <html>
   <head>
-    <style>
-      body, html {background: #999; color: #fff;}
-    </style>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="./lib/uikit-3/css/uikit.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- UIkit JS -->
+    <script src="./lib/uikit-3/js/uikit.min.js"></script>
+    <script src="./lib/uikit-3/js/uikit-icons.min.js"></script>
   </head>
   <body>
-    <h1>Hello Kiosk</h1>
+    <div class="uk-container uk-container-expand">
+      <div class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid="masonry: true">
+
+        <div class="uk-margin-top">
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top uk-padding-small" uk-lightbox="animation: slide">
+                  <a href="img/1915.31.6.obv.noscale-transparent.png" data-caption="Front">
+                    <img src="img/1915.31.6.obv.noscale-transparent.png" alt="">
+                  </a>
+                  <a class="uk-hidden" href="img/1915.31.6.rev.noscale-transparent.png" data-caption="Back">
+                    <img src="img/1915.31.6.rev.noscale-transparent.png" alt="">
+                  </a>
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Top</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-margin-top">
+            <div class="uk-card uk-card-default">
+                <div class="uk-card-media-top uk-padding-small" uk-lightbox="animation: slide">
+                  <a href="img/1915.31.6.obv.noscale-transparent.png" data-caption="Front">
+                    <img src="img/1915.31.6.obv.noscale-transparent.png" alt="">
+                  </a>
+                  <a class="uk-hidden" href="img/1915.31.6.rev.noscale-transparent.png" data-caption="Back">
+                    <img src="img/1915.31.6.rev.noscale-transparent.png" alt="">
+                  </a>
+                </div>
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">Media Top</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+            </div>
+        </div>
+
+
+      </div>
+
+    </div>
   </body>
 </html>
