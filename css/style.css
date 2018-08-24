@@ -3,3 +3,10 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+
+.label {
+  background: #E3E0DA;
+}
+.canvas {
+  background: #A2988F;
+}
