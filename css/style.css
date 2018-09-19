@@ -10,3 +10,36 @@ body {
 .canvas {
   background: #A2988F;
 }
+.uk-accordion {
+  margin-top: 20px;
+}
+
+.uk-accordion li {
+  padding: 20px;
+  border-top: 4px solid #6C6054;
+}
+
+.uk-accordion li a, .uk-accordion li a:hover, .uk-accordion li a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.uk-accordion-content {
+  margin-bottom: 40px;
+}
+
+.credit {
+  font-size: 9px;
+  font-style: italic;
+}
+
+.uk-lightbox-toolbar {
+  background: transparent !important;
+  padding: 20px;
+}
+
+.uk-lightbox-caption {
+  text-align: right !important;
+  color: white;
+}
