@@ -40,6 +40,8 @@ body {
 }
 
 .uk-lightbox-caption {
-  text-align: right !important;
+  text-align: left !important;
   color: white;
+  width: 250px;
+  position: right;
 }
