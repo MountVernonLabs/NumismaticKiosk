@@ -19,6 +19,10 @@ body {
   border-top: 4px solid #6C6054;
 }
 
+.uk-accordion li:first-child {
+  border-top: 0px;
+}
+
 .uk-accordion li a, .uk-accordion li a:hover, .uk-accordion li a:visited {
   text-decoration: none;
   color: white;
@@ -68,3 +72,5 @@ body {
 .colthumb img {
   height: 100%;
 }
+
+.uk-container {padding-bottom: 40px;}
