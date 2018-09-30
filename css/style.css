@@ -74,3 +74,7 @@ body {
 }
 
 .uk-container {padding-bottom: 40px;}
+
+.uk-slidenav svg polyline, .uk-close svg line {
+  stroke-width: 4px;
+}
